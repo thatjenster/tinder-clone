@@ -250,7 +250,7 @@ html {
 }
 
 .header__icon {
-  padding: 0;
+  color: slategray;
 }
 
 .header__logo {
