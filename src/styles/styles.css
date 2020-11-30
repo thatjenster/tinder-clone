@@ -267,8 +267,8 @@ html {
   height: 50vh;
   max-width: 85vw;
   padding: 20px;
-  -webkit-box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 15px 55px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 15px 55px 0px rgba(0, 0, 0, 0.4);
   border-radius: 22px;
   background-size: cover;
   background-position: center;
@@ -299,5 +299,48 @@ html {
   margin: 10px;
   color: #ffff;
   font: 400 2.2rem "Merriweather", serif;
+}
+
+.swipeButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  bottom: 5vh;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.swipeButtons .MuiIconButton-root {
+  background-color: white;
+  -webkit-box-shadow: 0px 15px 55px 0px rgba(0, 0, 0, 0.4) !important;
+          box-shadow: 0px 15px 55px 0px rgba(0, 0, 0, 0.4) !important;
+}
+
+.swipeButtons__repeat {
+  padding: 3vw !important;
+  color: #ecd229 !important;
+}
+
+.swipeButtons__left {
+  padding: 3vw !important;
+  color: #f50303 !important;
+}
+
+.swipeButtons__star {
+  padding: 3vw !important;
+  color: #1f96f8 !important;
+}
+
+.swipeButtons__right {
+  padding: 3vw !important;
+  color: #78ff5d !important;
+}
+
+.swipeButtons__lightning {
+  padding: 3vw !important;
+  color: #f080f0 !important;
 }
 /*# sourceMappingURL=styles.css.map */
